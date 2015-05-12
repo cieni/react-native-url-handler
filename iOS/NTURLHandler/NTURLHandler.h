@@ -2,7 +2,8 @@
 
 @import Foundation;
 
-#import <React/React.h>
+#import <RCTBridge.h>
+#import <RCTEventDispatcher.h>
 
 @interface NTURLHandler : NSObject <RCTBridgeModule>
 
